@@ -62,17 +62,17 @@ function draw(){
  currentTime= hour();
 if(currentTime==(Lastfeed+1)){
   update("Playing");
-foodobject.garden();
+background(garden);
 }
 
 else if(currentTime==(Lastfeed+2)){
   update("Sleeping");
-  foodobject.bedroom();
+  background(bedroom)
 }
 
 else if(currentTime>(Lastfeed+2) && currentTime<=(Lastfeed+4)){
   update("Bathing");
-  foodobject.washroom();
+  background(bathroom);
 }
 
 else{
