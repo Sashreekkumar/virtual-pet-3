@@ -37,14 +37,14 @@ class Food {
     }
 
     bedroom(){
-    background(bedroom, 350,350);
+    background(bedroom, 700,700);
     }
 
     garden(){
-      background(garden, 350, 350);
+      background(garden, 700, 700);
     }
 
     washroom(){
-      background(washroom, 350, 350);
+      background(washroom, 700, 700);
     }
   }
