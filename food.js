@@ -35,16 +35,4 @@ class Food {
         }
       }
     }
-
-    bedroom(){
-    background(bedroom);
-    }
-
-    garden(){
-      background(garden);
-    }
-
-    washroom(){
-      background(washroom);
-    }
   }
